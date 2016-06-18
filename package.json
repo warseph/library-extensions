@@ -1,0 +1,36 @@
+{
+  "name": "library-extensions",
+  "version": "1.0.0",
+  "description": "Simple helper for creating library extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "pretest": "npm run eslint",
+    "eslint": "eslint '*/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warseph/library-extensions.git"
+  },
+  "keywords": [
+    "extension",
+    "helpers",
+    "utilities"
+  ],
+  "author": "Ezequiel Rabinovich <erabinovich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warseph/library-extensions/issues"
+  },
+  "homepage": "https://github.com/warseph/library-extensions#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.13.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^2.5.3"
+  }
+}
