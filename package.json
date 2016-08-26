@@ -1,6 +1,6 @@
 {
   "name": "library-extensions",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple helper for creating library extensions",
   "main": "index.js",
   "scripts": {

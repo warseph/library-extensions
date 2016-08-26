@@ -35,6 +35,12 @@ objects.
 **Warning:** if a method already exists with the extension name on the object
 you are extending an `Error` will be thrown.
 
+You can reset an extended object (i.e. remove all the added methods) by running
+```js
+MyExtension.reset(test);
+console.log(test.sum(3)); // sum is not a function
+```
+
 If you need more examples on how to use this look at:
 - [promise-flow-extensions](https://github.com/warseph/promise-flow-extensions)
 - [rx-flow-extensions](https://github.com/warseph/rx-flow-extensions)
